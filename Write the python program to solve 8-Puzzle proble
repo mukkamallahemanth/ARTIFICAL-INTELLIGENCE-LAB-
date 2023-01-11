@@ -1,0 +1,13 @@
+import copy  
+
+from heapq import heappush, heappop  
+
+n = 3  
+
+rows = [ 1, 0, -1, 0 ]  
+cols = [ 0, -1, 0, 1 ]  
+
+class priorityQueue:  
+
+    def __init__(self):  
+        self.heap = []  
